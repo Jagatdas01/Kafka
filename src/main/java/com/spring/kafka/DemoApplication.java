@@ -8,7 +8,13 @@ import org.springframework.kafka.annotation.EnableKafka;
 @EnableKafka
 public class DemoApplication {
 
+
+	/* 
+	* Seeb by swastik
+	 */
+
 	public static void main(String[] args) {
+		System.out.println("seen by swastik");
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
